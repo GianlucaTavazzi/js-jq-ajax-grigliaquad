@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh
+}
+
+.conteiner{
+    width: 360px;
+    height: 360px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quadrato{
+    width: 60px;
+    height: 60px;
+    border: 1px solid;
+    display: flex;
+}
+
+.quadrato p{
+    margin: auto;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green
+}
